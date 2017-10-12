@@ -32,17 +32,14 @@
 }
 /**/
 img{
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   margin: 20px;
   padding: 20px;
   cursor: pointer;
 }
 
-img:hover{
-  border: 1px solid black;
-}
-
-button {
-  padding: 10px 30px;
+.active {
+  border: 2px solid black;
+  border-radius: 4px;
 }
